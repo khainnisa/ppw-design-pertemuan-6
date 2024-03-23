@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    div.polaroid {
+      display: flex;
+        width: 700px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: left;
+        border-radius: 4%;
+        overflow: hidden;
+        }   
+        div.container {
+        padding: 10px;
+        width: 500px;
+        margin: 4%;
+        }
+
+        body{
+          display: flex;
+          /* letak horizontal */
+          justify-content: center;
+          /* letak vertikal */
+          align-items: center;
+          height: 100vh;
+
+        }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    * {font-family: sans-serif;}
+
+  </style>
+</head>
+<body>
+  <div class="polaroid">
+    <img src="images/drawers.jpg" style="width:35%; object-fit: cover; object-position: center;">
+    <div class="container">
+      <h3>Shift the overall look and feel by adding these wonderful 
+        touches to furniture in your home</h3>
+      
+        <p>Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+      
+        Michelle Appleton
+        28 Jun 2020</p>
+
+        <div class="Michelle" style="display: flex; width: 100%;">
+          <img src="images/avatar-michelle.jpg" style="width: 20%; border-radius: 100%;">
+          <div style="width: 50%; height: 80px;">
+            <p style="margin: 5%; margin-top: 16px; font-weight: bold;">Michelle Appleton</p>
+            <p style="margin: 5%;">28 Jun 2020</p>
+          </div>
+          <div style="margin-top: 9%; margin-right: 5%; margin-left: auto; background-color: lightgray; border-radius: 100%; width: 25px; height: 25px;"  >
+            <img src="images/icon-share.svg" style="margin: 5px">
+          </div>
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>
